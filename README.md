@@ -1,2 +1,4 @@
-# blog-seguranca-em-redes
- Projeto Faculdade
+# Blog sobre Segurança em Redes 
+ >Projeto Faculdade 
+
+> Em desenvolvimento... ⚒️⚙️
