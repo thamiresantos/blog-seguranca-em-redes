@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @import url(estilos/header.css);
-@import url(estilos/main.css);
+@import url(estilos/conteudo.css);
 
 /*fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
