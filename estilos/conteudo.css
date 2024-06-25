@@ -23,3 +23,24 @@
     font-size: 1em;
 }
 
+.container-midias-sociais {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.midias-sociais {
+    background-color: var(--cor-principal);
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.midias-icons {
+    width: 25px;
+    height: 25px;
+}
