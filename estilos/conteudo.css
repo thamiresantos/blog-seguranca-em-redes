@@ -10,14 +10,16 @@
  text-align: center;
  margin: 35px;
  font-family: var(--fonte-segundaria);
- font-size: 46px;
+ font-size: 40px;
  color: var(--cor-principal);
 }
 
 
 .texto{
-    margin: 45px 90px 35px;
+    margin: 45px 140px 28px;
     line-height: 30px;
     text-align: justify;
     text-indent: 30px;
+    font-size: 1em;
 }
+
