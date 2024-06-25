@@ -1,0 +1,128 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.titulo-carrossel {
+    text-align: center;
+    margin-top: 55px;
+    font-family: var(--fonte-segundaria);
+    font-size:30px;
+    color: var(--cor-principal);
+}
+
+.container-carrossel {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.swiper-slide {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    margin: 50px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5), inset 0 2px 2px rgba(225, 225, 225, 0.2);
+    cursor: grab;
+}
+
+#slide01 {
+    background-color: var(--cor-principal);
+    background-image: url(imagens/img-criptografia.png);
+    background-size: cover;
+}
+
+#slide02 {
+    background-color: var(--cor-principal);
+    background-image: url(imagens/img-firewall.png);
+    background-size: cover;
+}
+
+#slide03 {
+    background-color: var(--cor-principal);
+    background-image: url(imagens/img-vpn.png);
+    background-size: cover;
+}
+
+#slide04 {
+    background-color: var(--cor-principal);
+    background-image: url(imagens/img-ids.jpg);
+    background-size: cover;
+}
+
+#slide05 {
+    background-color: var(--cor-principal);
+    background-image: url(imagens/img-redes-sem-fios..jpg);
+    background-size: cover;
+}
+
+#slide06 {
+    background-color: var(--cor-principal);
+    background-image: url(imagens/img-vulnerabilidade.jpeg);
+    background-size: cover;
+}
+
+.slide-titulo {
+    color:var(--cor-branco);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--fonte-segundaria);
+    font-weight: bold;
+    font-size: 30px;
+    margin: 94px 0 35px 0;
+}
+
+.titulos-maiores {
+    font-size: 24.2px;
+}
+
+.slide-butao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 63%);
+    padding: 8px 18px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.slide-butao-link {
+    display: block;
+    text-decoration: none;
+    color: var(--cor-branco);
+    padding: 6px;
+    font-size: 18px;
+}
+
+.slide-butao:is(:hover, :focus-visible) {
+    transform: scale(0.97);
+    background-color: var(--cor-principal);
+}
+
+.btn-navegacao::after {
+    content: '';
+}
+
+.btn-navegacao {
+    width: initial;
+    height: initial;
+    font-size: 3rem;
+    color: black;
+}
+
