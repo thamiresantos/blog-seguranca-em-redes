@@ -23,10 +23,22 @@
     font-size: 1em;
 }
 
+/* ------- MIDIAS SOCIAIS-------*/
 .container-midias-sociais {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
+}
+
+.conteudo-midias-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome-midias {
+    color: var(--cor-principal);
+    font-size: 12px;
 }
 
 .midias-sociais {
@@ -45,6 +57,7 @@
     height: 25px;
 }
 
+/* -------- BANNER ------- */
 .container-banner {
     display: flex;
     margin: 65px 0px;
