@@ -37,10 +37,65 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    border-radius: 6px;
+    border-radius: 50%;
 }
 
 .midias-icons {
     width: 25px;
     height: 25px;
+}
+
+.container-banner {
+    display: flex;
+    margin: 65px 0px;
+}
+
+.img-banner{
+    width: 50%;
+    left: 0;
+}
+
+.conteudo-banner {
+    background-color: var(--cor-principal);
+    width: 50%;
+}
+
+.titulo-banner {
+    color: white;
+    font-family: var(--fonte-segundaria);
+    text-align: center;
+    padding: 28px 0 12px 0;
+    font-size: 28px;
+}
+
+.texto-banner{
+    color: white;
+    text-align: justify;
+    padding: 30px 27px;
+    margin: 0px 30px;
+    font-size: 14px;
+}
+
+.btn-banner{
+    position: relative;
+    left:250px;
+    background-color: rgba(0, 0, 0, 63%);
+    padding: 8px 18px;
+    margin:28px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.btn-banner:is(:hover, :focus-visible) {
+    transform: scale(0.97);
+    background-color: black;
+}
+
+.link-btn-banner {
+    display: block;
+    text-decoration: none;
+    color: var(--cor-branco);
+    padding: 6px;
+    font-size: 18px;
 }
