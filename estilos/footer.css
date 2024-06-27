@@ -99,7 +99,7 @@
 /*----- TELAS PEQUENAS -----*/
 @media screen and (max-width:680px) {
     .container-footer {
-        height: 338px;
+        height: 340px;
     }
 
     .container-footer-pag02 {
