@@ -1,0 +1,69 @@
+.container-footer {
+    background-color: var(--cor-principal);
+    margin-top: 45px;
+    height: 353px;
+}
+
+.conteudo-footer {
+    display: flex;
+    color:white;
+    justify-content: space-between;
+}
+
+.box-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-logo-footer {
+    width: 150px;
+    height: 150px;
+}
+
+.texto-explicativo {
+    color: rgba(255, 255, 255, 0.733);
+    padding: 10px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.container-lista-rodape {
+    margin: 40px;
+    list-style: none;
+}
+
+.lista-rodape {
+    padding: 15px;
+}
+
+.link-lista-rodape {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.link-lista-rodape:hover {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.assinatura {
+    display: flex;
+    justify-content: center;
+    color: white ;
+    background-color: rgba(0, 0, 0, 63%);
+    margin-top: 25px;
+    padding: 17px;
+    text-align: center;
+}
+
+.assinatura > a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+}
+
+.assinatura > a:hover {
+    color: var(--cor-principal);
+}
