@@ -56,3 +56,18 @@ color: gray;
     
 }
 
+
+/*----- TELAS PEQUENAS -----*/
+@media screen and (max-width:680px) {
+    .lista-menu {
+        display: none;
+    }
+
+    .butao-contato {
+        display: none;
+    }
+
+    .cabecalho {
+        justify-content: center;
+    }
+}

@@ -126,3 +126,23 @@ html {
     color: black;
 }
 
+
+/*----- TELAS PEQUENAS -----*/
+@media screen and (max-width:600px) {
+    .titulo-carrossel {
+        font-size: 25px;
+    }
+
+    .slide-titulo {
+        font-size: 28px;
+    }
+
+    .titulos-maiores {
+        font-size: 21px;
+    }
+
+    .slide-butao {
+        padding: 8px 15px;
+    }
+
+}

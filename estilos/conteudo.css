@@ -27,6 +27,7 @@
 .container-midias-sociais {
     display: flex;
     justify-content: space-around;
+    margin: 100px 0px;
     
 }
 
@@ -111,4 +112,71 @@
     color: var(--cor-branco);
     padding: 6px;
     font-size: 18px;
+}
+
+/*----- TELAS MÉDIAS -----*/
+@media screen and (max-width:968px) {
+    .imagem-capa {
+        background-image: url(imagens/img-03.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 450px;
+    }
+
+    .texto{
+        margin: 45px 80px 28px;
+    }
+
+    
+   
+}
+
+/*----- TELAS PEQUENAS -----*/
+@media screen and (max-width:680px) {
+    .imagem-capa {
+        display: none;
+    }
+
+    .texto{
+        margin: 45px 38px 28px;
+        font-size: 14px;
+    }
+
+    .titulo-principal {
+        font-size: 38px;
+    }
+
+
+    /* MIDIAS SOCIAIS */
+    .nome-midias {
+        color: var(--cor-principal);
+        font-size: 11px;
+    }
+
+    .midias-sociais {
+        width: 37px;
+        height: 37px;
+    }
+
+    .midias-icons {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* BANNER */
+    .container-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-banner , .conteudo-banner {
+        width: 100%;
+    }
+
+    .btn-banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
