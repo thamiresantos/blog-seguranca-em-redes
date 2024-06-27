@@ -61,13 +61,13 @@ html {
 
 #slide04 {
     background-color: var(--cor-principal);
-    background-image: url(imagens/img-ids.jpg);
+    background-image: url(imagens/img-redes-sem-fios..jpg);
     background-size: cover;
 }
 
 #slide05 {
     background-color: var(--cor-principal);
-    background-image: url(imagens/img-redes-sem-fios..jpg);
+    background-image: url(imagens/img-ids.jpg);
     background-size: cover;
 }
 
