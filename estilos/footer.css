@@ -4,10 +4,21 @@
     height: 353px;
 }
 
+.container-footer-pag02 {
+    height: 297px;
+    margin-top: 165px;
+}
+
 .conteudo-footer {
     display: flex;
     color:white;
     justify-content: space-between;
+}
+
+.conteudo-footer-pag02 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-footer {
@@ -27,6 +38,10 @@
     font-size: 14px;
     text-align: justify;
     line-height: 1.5em;
+}
+
+.texto-explicativo-pag02 {
+    width: 500px;
 }
 
 .container-lista-rodape {
@@ -69,6 +84,10 @@
     color: var(--cor-principal);
 }
 
+.assinatura-pag02 {
+    padding: 10px;
+}
+
 /*----- TELAS MÉDIAS -----*/
 @media screen and (max-width:968px) {
     .img-logo-footer {
@@ -81,6 +100,10 @@
 @media screen and (max-width:680px) {
     .container-footer {
         height: 338px;
+    }
+
+    .container-footer-pag02 {
+        height: 325px; 
     }
 
     .img-logo-footer {
